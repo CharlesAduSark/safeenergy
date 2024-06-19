@@ -1,5 +1,5 @@
 .aboutus{
-    height: 160vh;
+    height: 140vh;
 }
 
 .container{
@@ -19,7 +19,31 @@
 }
 
 .about-text{
-   margin-left: 80px;
-   width: 40%;
-   font-size: 28px;
+   margin-left: 130px;
+   width: 33%;
+   font-size: 22px;
+}
+
+.abouttxt1{
+    margin-bottom: 35px;
+}
+
+.abouttxt2{
+    margin-bottom: 35px;
+}
+
+.abouttxt3{
+    margin-bottom: 35px;
+}
+
+.signature{
+    display: flex;
+    flex-direction: row;
+}
+
+.abouttxt5{
+    font-size: 12px;
+    color: gray;
+    padding-top: 8px;
+    padding-left: 5px;
 }
