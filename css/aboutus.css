@@ -1,0 +1,25 @@
+.aboutus{
+    height: 160vh;
+}
+
+.container{
+     display: flex; 
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 180px;
+    padding: 120px 0px;
+}
+
+.about-img{
+     width: 30vw;
+     box-sizing: border-box;
+     border-radius: 110px 0 0 0;
+    
+}
+
+.about-text{
+   margin-left: 80px;
+   width: 40%;
+   font-size: 28px;
+}
