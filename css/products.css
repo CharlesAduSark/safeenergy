@@ -1,17 +1,22 @@
+.Panels{
+    height: 130vh;
+    background: #F8F4F4;
+}
+
 .products{
     color: black;
-    height: 140vh;
-    background-color: #F8F4F4;
+    height: 120vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+    margin-top: -70px;
 }
 
 .pro-grp1{
     width: 22vw;
     height: 40vh;
     background-color: white;
-    margin-left: 90px;
+    margin-left: 107px;
     margin-top: 177px;
     padding-top: 20px;
     padding-left: 30px;
@@ -21,7 +26,7 @@
     width: 22vw;
     height: 40vh;
     background-color: white;
-    margin-left: 90px;
+    margin-left: 107px;
     margin-top: 15px;
     padding-top: 20px;
     padding-left: 30px;
@@ -51,16 +56,22 @@
 
 .pro-boxes1{
     width: 27vw;
-    height: 75vh;
+    height: 86vh;
     grid-row-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 3;
-    background-color: red;
+    background-color: #FFD200;
     margin-top: 177px;
     padding-top: 20px;
-    padding-left: 30px;
+    padding-left: 25px;
     margin-left: -115px;
     border-top-right-radius: 150px;
 
+}
+
+.panels-txt{
+    padding-top: 50px;
+    padding-left: 37%;
+    font-size: 50px;
 }

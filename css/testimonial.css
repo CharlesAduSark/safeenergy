@@ -1,0 +1,6 @@
+.testimonial{
+    background-image: url(../assets/images/consultants.jpg);
+    width: 100%;
+    height: 70vh;
+    background-size: cover;
+}

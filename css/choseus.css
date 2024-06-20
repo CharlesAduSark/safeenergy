@@ -1,0 +1,10 @@
+.choseus{
+    height: 50vh;
+}
+
+.chosetxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

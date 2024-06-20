@@ -3,7 +3,8 @@
 }
 
 #logo{
-    width: 160px;
+    width: 190px;
+    padding-left:100px;
 }
 
 nav{
@@ -19,15 +20,30 @@ nav{
     display: flex;
     column-gap: 25px;
     cursor: pointer;
+    margin-left: -90px;
+    margin-top: 20px;
 }
 
 #nav-links:hover{
-    border-bottom: red;
+    border-bottom:#39EC2A;
     
 }
 
 nav button{
     background-color: white;
-    padding: 5px 20px;
     border-color: #001f3f;
+    margin-left: 100px;
+    margin-right: -80px;
+    padding: 13px 10px;
+}
+
+nav button:hover{
+background-color: #39EC2A;
+color: white;
+cursor: pointer;
+}
+
+.nav-contact{
+margin-left: -70px;
+margin-top: 18px;
 }

@@ -13,25 +13,26 @@
 .herotext{
     display: flex;
     flex-direction: column;
-    padding: 230px 0 0 120px;
+    padding: 180px 0 0 120px;
     line-height: 68px;
 }
 
 .herotext1{
-    width: 65%;
+    width:47%;
     font-size: 70px;
-    color: white;
+    color:#39EC2A ;
 }
 
 .herotext2{
     font-size: 22px;
+    width: 45%;
     color: white;
     margin-bottom: 25px;
 }
 
 .herobnt{
     margin-left: 120px;
-    background-color: red;
+    background-color: #FFD200;
     padding: 18px 22px;
-    color: white;
+    color: black;
 }
