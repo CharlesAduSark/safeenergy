@@ -1,8 +1,61 @@
 .products{
     color: black;
-    height: 100vh;
+    height: 140vh;
     background-color: #F8F4F4;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
+}
+
+.pro-grp1{
+    width: 22vw;
+    height: 40vh;
+    background-color: white;
+    margin-left: 90px;
+    margin-top: 177px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.pro-grp3{
+    width: 22vw;
+    height: 40vh;
+    background-color: white;
+    margin-left: 90px;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-left: 30px;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.pro-grp2{
+    width: 22vw;
+    height: 40vh;
+    background-color: white;
+    margin-left: -15px;
+    margin-top: 177px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.pro-grp4{
+    width: 22vw;
+    height: 40vh;
+    background-color: white;
+    margin-left: -15px;
+    margin-top: 15px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+.pro-boxes1{
+    width: 22vw;
+    height: 80vh;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: red;
+    margin-top: 177px;
+    padding-top: 20px;
+    padding-left: 30px
 }
